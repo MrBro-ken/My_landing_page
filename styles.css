@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #0f0f1a, #1a1a2e);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.subtitulo {
+  color: #aaa;
+}
+
+.perfil-contenedor {
+  width: 105px;
+  height: 105px;
+  margin: 20px auto;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.perfil {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.descripcion {
+  max-width: 300px;
+  margin: auto;
+}
+
+.botones button {
+  margin: 8px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #6bf1c8;
+  color: white;
+  font-weight: bold;
+}
+
+.galery {
+  display: none;
+  margin-top: 20px;
+}
+
+.galery img {
+  width: 120px;
+  margin: 8px;
+  border-radius: 10px;
+}
+.visor {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.visor img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #6bf1c8;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 20px;
+}
+
+.galeria-grid img {
+  width: 100%;
+  border-radius: 10px;
+}

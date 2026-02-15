@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galería</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1 class="titulo">My Drawings</h1>
+
+<div class="galeria-grid">
+  <img src="dibujo1.png" onclick="abrirImagen(this)">
+  <img src="dibujo2.png" onclick="abrirImagen(this)">
+  <img src="dibujo3.png" onclick="abrirImagen(this)">
+    <img src="dibujo4.png" onclick="abrirImagen(this)">
+  <img src="dibujo5.png" onclick="abrirImagen(this)">
+  <img src="dibujo6.png" onclick="abrirImagen(this)">
+    <img src="dibujo7.png" onclick="abrirImagen(this)">
+  <img src="dibujo8.png" onclick="abrirImagen(this)">
+</div>
+
+<br>
+<a href="index.html" class="btn">⬅ Volver</a>
+
+<!-- VISOR -->
+<div id="visor" class="visor">
+  <img id="imagenGrande">
+</div>
+
+<script src="galeria.js"></script>
+</body>
+</html>
